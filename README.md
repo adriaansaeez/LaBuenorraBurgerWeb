@@ -8,6 +8,8 @@ Pagina web creada para un projecto de ingles en el grado superior de DAW primer 
 
 - [@adriaansaeez](https://www.github.com/adriaansaeez)
 
+## Screenshots
+<img src="imagenes/preview.png">
 
 ## Acknowledgements
 
@@ -30,10 +32,6 @@ Pagina web creada para un projecto de ingles en el grado superior de DAW primer 
 **Client:** HTML5, CSS, Bootstrap 5.0
 
 
-
-
-## Screenshots
-<img src="imagenes/preview.png">
 
 
 ## Roadmap
