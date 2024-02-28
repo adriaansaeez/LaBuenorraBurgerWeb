@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
+.mibody{
     margin-top: 10px;
     max-width: 1080px;
     margin: 0 auto;
@@ -73,7 +73,6 @@ header nav a:hover{
 main{
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
     flex: 1 1 auto;
 }
@@ -81,10 +80,13 @@ main{
 .section1{
     display: flex;
     margin-top: 60px;
+    width: 1080px;
+    height: 540px;
+    margin-bottom: 20px;
 }
 .section1 img{
     width: 1080px;
-    height: 500px;
+    height: 540px;
 }
 
 .section2{
