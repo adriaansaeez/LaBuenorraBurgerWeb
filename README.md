@@ -33,7 +33,7 @@ Pagina web creada para un projecto de ingles en el grado superior de DAW primer 
 
 
 ## Screenshots
-![](imagenes/preview.png)
+<img src="imagenes/preview.png">
 
 
 ## Roadmap
