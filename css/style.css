@@ -91,11 +91,12 @@ main{
     margin-top: 60px;
     width: 1080px;
     height: 540px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
 }
 .section1 img{
     width: 1080px;
-    height: 540px;
+    height: 540px;   
 }
 
 .section2{
@@ -257,9 +258,53 @@ main{
     align-items: center;
 }
 
+.section6{
+    display: flex;
+    margin-bottom: -90px;
+}
+
+.section6 .izquierda{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section6 .izquierda .datos{
+    display: flex;
+    margin-left: 30px;
+}
+
+.section6 .izquierda img{
+    height: 450px;
+    width: 800px;
+}
+
+.section6 .derecha img{
+    width: 280px;
+    height: 600px;
+}
+
+.section6 .izquierda .socialmedia{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.section6 .izquierda .socialmedia figure img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
 .section6 img{
     margin-top: 30px;
     width: 1080px;
+    width: 35%;
+}
+
+footer{
+    background-color: #147f4c;
+    max-width: 1080px;
+    height: 60px;
 }
 
 
