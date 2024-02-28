@@ -14,16 +14,18 @@ html{
     overflow-x: hidden;
 }
 header{
-    color: rgb(20, 127, 76);
+    background-color: rgb(20, 127, 76);
+    color: rgb(239, 235, 209);
     display: block;
     height: 110px;
     justify-content: center;
 }
 
 header h1{
-    color: rgb(20, 127, 76);
+    color: rgb(239, 235, 209);
     font-size: 6em;
     font-family: 'Hobo BT', sans-serif;
+    background-color: rgb(20, 127, 76);
 }
 header div p{
     margin-top: 6%;
@@ -32,15 +34,17 @@ header div p{
     position: absolute;
     top: -20px;
     left: 800px;
+    background-color: rgb(20, 127, 76);
 }
 
 header nav{
-    color: rgb(20, 127, 76);
+    background-color: rgb(20, 127, 76);
+    color: rgb(239, 235, 209);
     font-size: 1.8em;
     font-family: 'Hobo BT', sans-serif;   
-    height: 30px;
+    height: 60px;
     display: inline-block;   
-    
+    width: 1080px;
 }
 
 header nav ul{
@@ -49,10 +53,12 @@ header nav ul{
     justify-content: center;
     align-items: center;
     display: flex;
+    background-color: rgb(20, 127, 76)
 }
 header nav a{
     text-decoration: none;
-    color: rgb(20, 127, 76);
+    color: rgb(239, 235, 209);
+    background-color: rgb(20, 127, 76);
     margin-left: 20px;
     margin-right: 20px;
 
@@ -60,6 +66,7 @@ header nav a{
 header nav a:hover{
     text-decoration: solid;
     color: rgb(49, 67, 172);;
+    background-color: rgb(20, 127, 76);
 }
 
 .separador {
