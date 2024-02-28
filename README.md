@@ -33,8 +33,7 @@ Pagina web creada para un projecto de ingles en el grado superior de DAW primer 
 
 
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![](imagenes/preview.jpg)
 
 
 ## Roadmap
