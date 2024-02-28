@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-top: 10px;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: rgb(239, 235, 209);
+    overflow-x: hidden;
+}
+header{
+    color: rgb(20, 127, 76);
+    display: block;
+    height: 110px;
+    justify-content: center;
+}
+
+header h1{
+    color: rgb(20, 127, 76);
+    font-size: 6em;
+    font-family: 'Hobo BT', sans-serif;
+}
+header div p{
+    margin-top: 6%;
+    font-family: 'huntesla-gloficka', ;
+    font-size: 1.8em;
+    position: absolute;
+    top: -20px;
+    left: 800px;
+}
+
+header nav{
+    color: rgb(20, 127, 76);
+    font-size: 1.8em;
+    font-family: 'Hobo BT', sans-serif;   
+    height: 30px;
+    display: inline-block;   
+    
+}
+
+header nav ul{
+    width: 1000px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(20, 127, 76);
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+header nav a:hover{
+    text-decoration: solid;
+    color: rgb(49, 67, 172);;
+}
+
+.separador {
+    height: 40px;
+    background-image: linear-gradient(45deg, #1b814c 25%, rgba(255, 255, 255, 0.001) 25%, rgba(255, 255, 255, 0.001) 75%, #1b814c 75%, #1b814c), linear-gradient(45deg, #1b814c 25%, rgba(255, 255, 255, 0.001) 25%, rgba(255, 255, 255, 0.001) 75%, #1b814c 75%, #1b814c);
+    background-size: calc(20px * 2) calc(20px * 2);
+    background-position: 0 0, 20px 20px;
+    width: 1080px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.section1{
+    display: flex;
+    margin-top: 60px;
+}
+.section1 img{
+    width: 1080px;
+    height: 500px;
+}
+
+.section2{
+    background-color: #1b814c;
+    width: 1080px;
+    height: 500px;
+}
+
+.section2{
+    color: rgb(239, 235, 209);
+    font-size: 5em;
+    font-family: 'Hobo BT', sans-serif;
+}
+
+.section2 img{
+    width: 1080px;
+    
+}
+
+.separador2{
+    height: 40px;
+    background-image: linear-gradient(45deg, #1b814c 25%, rgba(255, 255, 255, 0.001) 25%, rgba(255, 255, 255, 0.001) 75%, #1b814c 75%, #1b814c), linear-gradient(45deg, #1b814c 25%, rgba(255, 255, 255, 0.001) 25%, rgba(255, 255, 255, 0.001) 75%, #1b814c 75%, #1b814c);
+    background-size: calc(20px * 2) calc(20px * 2);
+    background-position: 0 0, 20px 20px;
+    width: 1080px;
+    margin-top: 107px;
+}
+
+.section3 img{
+    width: 1080px;
+}
+
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 1080px;
+}
+.section4 .titulo{
+    color: rgb(20, 127, 76);
+    font-size: 4em;
+    font-family: 'Hobo BT', sans-serif;
+    margin-bottom: 10px;
+}
+.section4 .opciones{
+    display: inline-flex;
+    flex-direction: row;
+   justify-content: space-around;
+}
+
+.section4 figcaption{
+    border: 2px solid #1b814c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 400px;
+}
+
+.section4 .opciones figcaption .texto{
+    color: rgb(20, 127, 76);
+    font-size: 1em;
+    font-family: 'Hobo BT', sans-serif;
+    margin-top: 30px;
+
+}
+.section4 .opciones figcaption .texto a{
+    text-decoration: none;
+    color: rgb(20, 127, 76);
+    font-size: 1em;
+    font-family: 'Hobo BT', sans-serif;
+
+}
+.section4 .opciones figcaption .texto a:hover{
+    color: rgb(49, 67, 172);
+
+}
+.section4 .opciones figcaption div p{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: rgb(20, 127, 76);
+    font-size: 0.9em;
+    font-family: 'Hobo BT', sans-serif;
+    margin-top: 5px;
+}
+.section4 .opciones figcaption img{
+    width: 300px;
+    height: 200px;
+}
+
+.section4 .boton{
+    border: 2px solid rgb(20, 127, 76);
+    background-color: rgb(20, 127, 76);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.section4 .boton a{
+    text-decoration: none;
+    color: rgb(239, 235, 209);
+    font-size: 1em;
+    font-family: 'Hobo BT', sans-serif;
+}
+
+.section4 .boton :hover{
+    border: 2px solid rgb(49, 67, 172);
+    background-color: rgb(49, 67, 172);
+    border-radius: 10px;
+    width: 500px;
+    
+}
+
+
+
+.section5 img{
+    margin-top: 30px;
+    width: 1080px;
+}
