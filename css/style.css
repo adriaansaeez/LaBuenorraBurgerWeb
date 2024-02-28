@@ -272,6 +272,8 @@ main{
 .section6 .izquierda .datos{
     display: flex;
     margin-left: 30px;
+    font-family: 'huntesla-gloficka';
+    font-size: 1em;
 }
 
 .section6 .izquierda img{
