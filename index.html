@@ -11,12 +11,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
+    <script>
+        let docTit1e = document.title; 
+    window.addEventListener("blur", function() {
+        document.title = "🍔Don't Miss Out🍔";
+    });
+    window.addEventListener("focus", function() {
+        document.title = docTit1e;
+    });
+    </script>
 </head>
 <body class="mibody">
     <header  id="home">
         <div>
             <h1>LA BUENORRA</h1>
-            <p style="margin-left: 40px;">passion for the meat and...</p>
         </div>
         
         <nav>
@@ -84,29 +92,23 @@
 
         <section class="separador2"></section>
 
-        <section class="section5">
-            <div class="card" style="width: 18rem;" id="subseccion">
-                <a href="https://maps.app.goo.gl/SgfBXWdX8v2LUEEG7" target="_blank">
-                    <img src="./imagenes/restaurante.jpg" class="card-img-top" alt="...">
-                </a>
+        <section class="section5" id="order">
+            <div class="card" style="width: 18rem;" id="subseccion">       
+                <img src="./imagenes/restaurante.jpg" class="card-img-top" alt="...">               
                 <div class="card-body">
-                  <a href="#" class="btn btn-primary" style="background-color: red; border-color: red;">Find us!</a>
+                  <a href="https://maps.app.goo.gl/SgfBXWdX8v2LUEEG7" target="_blank" class="btn btn-primary" style="background-color: red; border-color: red;">Find us!</a>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;" id="subseccion">
-                <a href="https://glovoapp.com/es/es/" target="_blank">
-                    <img src="./imagenes/delivery.jpg" class="card-img-top" alt="...">
-                 </a>
+              <div class="card" style="width: 18rem;" id="subseccion">               
+                    <img src="./imagenes/delivery.jpg" class="card-img-top" alt="...">                
                 <div class="card-body">
-                  <a href="#" class="btn btn-primary" style="background-color: red; border-color: red;">Delivery</a>
+                  <a href="https://glovoapp.com/es/es/" target="_blank" class="btn btn-primary" style="background-color: red; border-color: red;">Delivery</a>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;" id="subseccion">
-                <a href="https://www.infojobs.net/" target="_blank">
-                    <img src="./imagenes/workwus.jpg" class="card-img-top" alt="...">
-                </a>
+              <div class="card" style="width: 18rem;" id="subseccion">                
+                <img src="./imagenes/workwus.jpg" class="card-img-top" alt="...">               
                 <div class="card-body">                 
-                  <a href="#" class="btn btn-primary" style="background-color: red; border-color: red;">Work with us!</a>
+                  <a href="https://www.infojobs.net/" target="_blank" class="btn btn-primary" style="background-color: red; border-color: red;">Work with us!</a>
                 </div>
               </div>  
         </section>
@@ -124,31 +126,25 @@
                     <img style="width: 200px;
                     height: 170px;
                     margin-right: -10;
-                    margin-right: -20px;
-                    margin-top: 20px;
+                    margin-right: -14px;
+                    margin-top: 13px;
                 "  src="./imagenes/labuenorra.png" alt="">
                     <div class="texto">
                         <h1><a href="">LA BUENORRA</a></h1>
-                        <p>Made with 100/
-                            angus buenorra and
-                            special sueltecita
-                            sauce</p>
+                        <p>Made with 100% beef, bacon, onion rings, American cheese and <a href="https://simply-delicious-food.com/wp-content/uploads/2023/09/Barbecue-sauce3.jpg">BBQ sauce.</a></p> <!--Barbecue Sauce -->
                     </div>
                 </figcaption>
                 <figcaption class="dos">
-                    <img style="margin-top: 6px;"  src="./imagenes/lahuevona.png" alt="">
+                    <img style="margin-top: 10px;"  src="./imagenes/lahuevona.png" alt="">
                     <div class="texto">
                         <h1><a href="">LA HUEVONA</a></h1>
-                        <p>Made with 100/
-                            angus buenorra and
-                            special sueltecita
-                            sauce</p>
+                        <p>Made with 100% beef, American cheese, and <a href="https://www.foodlovinfamily.com/wp-content/uploads/2021/06/burger-king-zesty-sauce-681x1024.jpg">Zesty sauce</a></p>
                     </div>
                 </figcaption>
             </div>
 
             <div class="boton">
-                <a href="">Ver carta completa...</a>
+                <a href=""><a href="https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-6/263114327_229629192635827_5562255694668912084_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PCg6LqGEOnUAX92pa7p&_nc_ht=scontent-bcn1-1.xx&oh=00_AfCbDANajwhcnWVcjHiOldS7I0VAma4n5cANwQcVq3kWHw&oe=65EE245F" target="_blank"><u style="text-decoration: none;">View  menu</u>...</a></a>
             </div>
 
         </section>
@@ -187,8 +183,6 @@
     <footer>
         
     </footer>
-    
-
     
 </body>
 </html>
