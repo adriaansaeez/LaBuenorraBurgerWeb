@@ -7,6 +7,8 @@ Pagina web creada para un projecto de ingles en el grado superior de DAW primer 
 ## Authors
 
 - [@adriaansaeez](https://www.github.com/adriaansaeez)
+- [@AimedDz19](https://github.com/AimedDz19)
+- [@DarioMartinezVidal](https://github.com/DarioMartinezVidal)
 
 ## Screenshots
 <img src="imagenes/preview.png">
